@@ -4,4 +4,4 @@ RUN apt-get update
 RUN apt-get install -y software-properties-common
 RUN add-apt-repository ppa:lyx-devel/release
 RUN apt-get update
-RUN apt-get install -y lyx
+RUN apt-get DEBIAN_FRONTEND=noninteractive install -y lyx
