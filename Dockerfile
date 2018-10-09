@@ -4,5 +4,5 @@ RUN apt-get update
 RUN apt-get install -y software-properties-common
 RUN add-apt-repository ppa:lyx-devel/release
 RUN apt-get update
-RUn DEBIAN_FRONTEND=noninteractive apt-get install -y inkscape
+RUN DEBIAN_FRONTEND=noninteractive apt-get install -y inkscape
 RUN DEBIAN_FRONTEND=noninteractive apt-get install -y lyx
